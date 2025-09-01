@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Ejemplo</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; }
+        .container { max-width: 900px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 8px; }
+        h1 { text-align: center; color: #333; }
+        .productos { display: flex; justify-content: space-between; gap: 20px; }
+        .producto { background: #fafafa; border: 1px solid #ddd; border-radius: 6px; padding: 20px; width: 30%; box-sizing: border-box; text-align: center; }
+        .producto img { width: 100%; height: 150px; object-fit: cover; border-radius: 4px; }
+        .producto h2 { font-size: 1.2em; margin: 15px 0 10px; }
+        .producto p { color: #555; }
+        .precio { font-weight: bold; color: #2196f3; margin: 10px 0; }
+        .btn { background: #2196f3; color: #fff; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+        .btn:hover { background: #1769aa; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tienda de Ejemplo</h1>
+        <div class="productos">
+            <div class="producto">
+                <img src="https://via.placeholder.com/200x150?text=Producto+1" alt="Producto 1">
+                <h2>Camisa Casual</h2>
+                <p>Camisa de algodón, perfecta para cualquier ocasión.</p>
+                <div class="precio">$25.00</div>
+                <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/200x150?text=Producto+2" alt="Producto 2">
+                <h2>Zapatos Deportivos</h2>
+                <p>Zapatos cómodos y resistentes para tu día a día.</p>
+                <div class="precio">$45.00</div>
+                <button class="btn">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/200x150?text=Producto+3" alt="Producto 3">
+                <h2>Mochila Urbana</h2>
+                <p>Mochila espaciosa y moderna para llevar todo lo que necesitas.</p>
+                <div class="precio">$30.00</div>
+                <button class="btn">Comprar</button>
+            </div>
+        </div>
+    </div>
+</body>
